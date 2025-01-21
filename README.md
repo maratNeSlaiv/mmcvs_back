@@ -24,11 +24,14 @@ The **CV Creator** app allows users to easily create, edit, compare and customiz
    cd mmcvs_back
 
 2. Create a virtual environment:
+    ```bash command (terminal)
     python3.13 -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 3. Install dependencies:
+    ```bash command (terminal)
     pip install -r requirements.txt
 
 4. Run the backend server:
+    ```bash command (terminal)
     uvicorn main:app --reload
