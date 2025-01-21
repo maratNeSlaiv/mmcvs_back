@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from src.router.analysis import analysis_router
+from src.router.matcher import matcher_router
 
 app = FastAPI()
 
@@ -14,4 +14,4 @@ app.add_middleware(
 )
 
 # Add the router to the FastAPI app
-app.include_router(analysis_router, prefix="/analysis")
+app.include_router(matcher_router, prefix="/analysis")

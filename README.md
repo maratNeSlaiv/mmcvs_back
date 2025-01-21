@@ -34,4 +34,4 @@ The **CV Creator** app allows users to easily create, edit, compare and customiz
 
 4. Run the backend server:
     ```bash command (terminal)
-    uvicorn main:app --reload
+    uvicorn src.main:app --reload
